@@ -1,0 +1,58 @@
+<svg width="1080" height="1400" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <!-- Title -->
+  <text x="50%" y="40" text-anchor="middle" font-size="28" font-weight="bold">
+    Agentic Content Generation System — Architecture Diagram
+  </text>
+
+  <!-- Raw Input -->
+  <rect x="380" y="80" width="320" height="70" rx="10" fill="#f7f7f7" stroke="#333"/>
+  <text x="540" y="120" text-anchor="middle" font-size="16">Raw Product Input</text>
+
+  <!-- ParserAgent -->
+  <line x1="540" y1="150" x2="540" y2="200" stroke="#333"/>
+  <rect x="380" y="200" width="320" height="80" rx="10" fill="#e8f4ff" stroke="#1a73e8"/>
+  <text x="540" y="235" text-anchor="middle" font-size="16">ParserAgent</text>
+  <text x="540" y="255" text-anchor="middle" font-size="14">Normalizes → ProductModel</text>
+
+  <!-- Three branches -->
+  <line x1="540" y1="280" x2="200" y2="350" stroke="#333"/>
+  <line x1="540" y1="280" x2="540" y2="350" stroke="#333"/>
+  <line x1="540" y1="280" x2="880" y2="350" stroke="#333"/>
+
+  <!-- QAGeneratorAgent -->
+  <rect x="100" y="350" width="300" height="90" rx="10" fill="#fff7e6" stroke="#ff9900"/>
+  <text x="250" y="390" text-anchor="middle" font-size="16">QAGeneratorAgent</text>
+  <text x="250" y="410" text-anchor="middle" font-size="14">Produces structured FAQ Q/A</text>
+
+  <!-- ContentBlockAgent -->
+  <rect x="380" y="350" width="320" height="90" rx="10" fill="#f0ffe5" stroke="#33aa33"/>
+  <text x="540" y="390" text-anchor="middle" font-size="16">ContentBlockAgent</text>
+  <text x="540" y="410" text-anchor="middle" font-size="14">Benefits, Ingredients, Usage</text>
+
+  <!-- ComparisonAgent -->
+  <rect x="760" y="350" width="300" height="90" rx="10" fill="#fff0f5" stroke="#cc3366"/>
+  <text x="910" y="390" text-anchor="middle" font-size="16">ComparisonAgent</text>
+  <text x="910" y="410" text-anchor="middle" font-size="14">Generates product comparison</text>
+
+  <!-- Retrieval Agent -->
+  <line x1="250" y1="440" x2="540" y2="520" stroke="#333" stroke-dasharray="6,6"/>
+  <line x1="540" y1="440" x2="540" y2="520" stroke="#333" stroke-dasharray="6,6"/>
+  <rect x="380" y="520" width="320" height="90" rx="10" fill="#eefaff" stroke="#0077cc"/>
+  <text x="540" y="560" text-anchor="middle" font-size="16">Retrieval Agent</text>
+  <text x="540" y="580" text-anchor="middle" font-size="14">FAISS / Simple fallback</text>
+
+  <!-- Assembler -->
+  <line x1="540" y1="610" x2="540" y2="670" stroke="#333"/>
+  <rect x="330" y="670" width="420" height="110" rx="10" fill="#e5f7ff" stroke="#0066aa"/>
+  <text x="540" y="710" text-anchor="middle" font-size="18">AssemblerAgent</text>
+  <text x="540" y="735" text-anchor="middle" font-size="14">Combines: Model + Blocks + FAQ + Comparison</text>
+  <text x="540" y="755" text-anchor="middle" font-size="14">Using Template System</text>
+
+  <!-- Final Outputs -->
+  <line x1="540" y1="780" x2="540" y2="840" stroke="#333"/>
+  <rect x="360" y="840" width="360" height="150" rx="10" fill="#f7f7f7" stroke="#444"/>
+  <text x="540" y="880" text-anchor="middle" font-size="18">Final Output JSON Pages</text>
+  <text x="540" y="905" text-anchor="middle" font-size="15">product_page.json</text>
+  <text x="540" y="925" text-anchor="middle" font-size="15">faq.json</text>
+  <text x="540" y="945" text-anchor="middle" font-size="15">comparison_page.json</text>
+</svg>
