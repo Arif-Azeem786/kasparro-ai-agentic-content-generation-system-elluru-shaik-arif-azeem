@@ -10,14 +10,34 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-      - name: Install deps
+
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Run pipeline (deterministic)
+        env:
+          ENABLE_RETRIEVAL: "0"
+          OPENAI_API_KEY: ""
+        run: |
+          python -m src.main --dry-run
+
       - name: Run tests
+        env:
+          ENABLE_RETRIEVAL: "0"
         run: pytest src/tests -q
+
+      - name: Upload outputs (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: outputs
+          path: outputs/*.json

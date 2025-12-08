@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  pipeline:
+    build: .
+    container_name: kasparro_agentic_pipeline
+    environment:
+      - ENABLE_RETRIEVAL=0
+      # optionally mount .env with OPENAI_API_KEY if you want to enable LLM
+    volumes:
+      - ./:/app
+    command: ["python", "-m", "src.main"]

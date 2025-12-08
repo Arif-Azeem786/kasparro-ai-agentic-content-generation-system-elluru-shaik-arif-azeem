@@ -1,0 +1,36 @@
+{
+    "product_template": {
+      "description": "Fields used to generate product page JSON.",
+      "fields": {
+        "title": {"type": "string", "description": "Product page title - can include {{product.name}}"},
+        "sections": {"type": "array[string]", "description": "Order of content block ids to include"},
+        "include_faq": {"type": "boolean", "description": "Whether to include FAQ list in this page"}
+      }
+    },
+    "faq_template": {
+      "description": "Template for FAQ page (includes 'faq' list).",
+      "fields": {
+        "title": {"type": "string"},
+        "sections": {"type": "array[string]"},
+        "include_faq": {"type": "boolean"}
+      }
+    },
+    "comparison_template": {
+      "description": "Template describing comparison page structure.",
+      "fields": {
+        "title": {"type": "string"},
+        "sections": {"type": "array[string]"},
+        "include_faq": {"type": "boolean"}
+      }
+    },
+    "content_blocks": {
+      "description": "Available content block ids and expected shapes.",
+      "blocks": {
+        "benefits_block": {"type": "object", "fields": {"summary": "string", "bullets": "array[string]"}},
+        "ingredients_block": {"type": "object", "fields": {"list": "array[string]", "note": "string"}},
+        "usage_block": {"type": "object", "fields": {"how": "string"}},
+        "safety_block": {"type": "object", "fields": {"side_effects": "string"}}
+      }
+    }
+  }
+  
