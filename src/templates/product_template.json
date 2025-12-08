@@ -1,0 +1,6 @@
+{
+    "title": "{{product.name}}",
+    "sections": ["benefits_block","ingredients_block","usage_block"],
+    "include_faq": false
+  }
+  

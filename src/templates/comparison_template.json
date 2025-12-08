@@ -1,0 +1,6 @@
+{
+    "title": "Comparison - {{product.name}} vs ProductB",
+    "sections": ["ingredients_block"],
+    "include_faq": false
+  }
+  

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+.Python
+
+# VSCode
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual env
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Outputs — keep run_id outputs if you want; ignore latest intermediate files
+outputs/faq.json
+outputs/product_page.json
+outputs/comparison_page.json
+
+# If you want to ignore ALL outputs, uncomment:
+# outputs/
+
+# Logs
+*.log

@@ -1,0 +1,48 @@
+{
+  "title": "Comparison - GlowBoost Vitamin C Serum vs Fictional",
+  "meta": {
+    "price_inr": 699.0
+  },
+  "sections": [
+    {
+      "id": "ingredients_block",
+      "content": {
+        "list": [
+          "Vitamin C",
+          "Hyaluronic Acid"
+        ],
+        "note": "Concentration: 10% Vitamin C"
+      }
+    }
+  ],
+  "comparison": {
+    "product_a": {
+      "name": "GlowBoost Vitamin C Serum",
+      "price": 699.0,
+      "ingredients": [
+        "Vitamin C",
+        "Hyaluronic Acid"
+      ]
+    },
+    "product_b": {
+      "name": "GlowBoost Plus",
+      "key_ingredients": [
+        "Vitamin C Extract",
+        "Hyaluronic Acid Extract"
+      ],
+      "benefits": [
+        "Brightening",
+        "Hydration"
+      ],
+      "price_inr": 799.0
+    },
+    "differences": {
+      "price_diff": 100.0
+    }
+  },
+  "_meta": {
+    "run_id": "8098484b-dff9-41c2-9878-c1bd2673b2f2",
+    "timestamp": "2025-12-08T15:32:35.181867+00:00",
+    "source": "comparison_page"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "title": "FAQ - GlowBoost Vitamin C Serum",
+  "meta": {
+    "price_inr": 699.0
+  },
+  "sections": [],
+  "faq": [
+    {
+      "category": "Informational",
+      "q": "What is the product name?",
+      "a": "GlowBoost Vitamin C Serum",
+      "id": "5c855530-2de7-450e-b438-7f0a0fb3113b"
+    },
+    {
+      "category": "Informational",
+      "q": "What is the concentration?",
+      "a": "10% Vitamin C",
+      "id": "14c546b1-b9a7-4c54-91fc-b322f94bef7f"
+    },
+    {
+      "category": "Usage",
+      "q": "How to use the product?",
+      "a": "Apply 2–3 drops in the morning before sunscreen",
+      "id": "5a5c2c75-4f63-423d-ad6e-0d578a594732"
+    },
+    {
+      "category": "Benefits",
+      "q": "What benefit does it provide related to Brightening?",
+      "a": "GlowBoost Vitamin C Serum helps with brightening.",
+      "id": "f8be8a79-2a9a-4dfd-8f5b-68c01580d068"
+    },
+    {
+      "category": "Benefits",
+      "q": "What benefit does it provide related to Fades dark spots?",
+      "a": "GlowBoost Vitamin C Serum helps with fades dark spots.",
+      "id": "cfa3875d-3b98-424b-be0f-89fa077f35d9"
+    },
+    {
+      "category": "Safety",
+      "q": "Are there side effects?",
+      "a": "Mild tingling for sensitive skin",
+      "id": "64c5f3cb-01b4-4ff6-8540-2ebc6e5ea003"
+    },
+    {
+      "category": "Purchase",
+      "q": "What is the price?",
+      "a": "₹699",
+      "id": "6d9f99a0-c87a-4924-a964-e0f4fd8780af"
+    },
+    {
+      "category": "Informational",
+      "q": "Is this suitable for Oily skin?",
+      "a": "Yes, it is suitable.",
+      "id": "0d893e87-abd9-497b-ae60-ce4bcc868fab"
+    },
+    {
+      "category": "Informational",
+      "q": "Is this suitable for Combination skin?",
+      "a": "Yes, it is suitable.",
+      "id": "aceb2021-6ff7-4e6f-86a1-739705c3da0f"
+    },
+    {
+      "category": "Informational",
+      "q": "Is this suitable for Oily skin?",
+      "a": "Yes, it is suitable.",
+      "id": "c99172d9-a920-480c-ba2e-7902c136c05f"
+    },
+    {
+      "category": "Informational",
+      "q": "Is this suitable for Combination skin?",
+      "a": "Yes, it is suitable.",
+      "id": "a3ab18e8-dc3d-4465-a37d-2c6a206f52a1"
+    },
+    {
+      "category": "Informational",
+      "q": "Is this suitable for Oily skin?",
+      "a": "Yes, it is suitable.",
+      "id": "633aaa76-34ec-43cc-b59e-1a535ae4069a"
+    },
+    {
+      "category": "Informational",
+      "q": "Is this suitable for Combination skin?",
+      "a": "Yes, it is suitable.",
+      "id": "ec4939a1-9ee8-46b0-913e-acbe49243c00"
+    },
+    {
+      "category": "Informational",
+      "q": "Is this suitable for Oily skin?",
+      "a": "Yes, it is suitable.",
+      "id": "76c81ca0-8198-4823-9d64-34f7e70c7d62"
+    },
+    {
+      "category": "Informational",
+      "q": "Is this suitable for Combination skin?",
+      "a": "Yes, it is suitable.",
+      "id": "2a9eae05-1c9f-4983-afdb-4fd0fbe99aeb"
+    }
+  ],
+  "_meta": {
+    "run_id": "8098484b-dff9-41c2-9878-c1bd2673b2f2",
+    "timestamp": "2025-12-08T15:32:35.181867+00:00",
+    "source": "faq"
+  }
+}
